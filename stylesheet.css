@@ -1,0 +1,432 @@
+html{
+    background-color: #070b11;
+}
+
+.footer{
+    display: flex; justify-content: space-between;
+    font-weight: bold;
+}
+
+/* sneaky link, colour info for hyperlinks */
+.a{
+    display: flex; justify-content: space-between;
+    font-weight: bold;
+    
+    a:hover{
+        text-shadow:
+            0 0 0.104vw #eedcb0,
+            0 0 0.208vw #eedcb0,
+            0 0 0.417vw #eedcb0,
+            0 0 0.833vw #3b4998,
+            0 0 1.667vw #3b4998,
+            0 0 2.083vw #3b4998,
+            0 0 2.604vw #3b4998,
+            0 0 4.167vw #3b4998;
+        color: #eedcb0;
+    }
+ 
+    .current{
+        text-shadow:
+            0 0 0.104vw #ffde8a,
+            0 0 0.208vw #ffde8a,
+            0 0 0.417vw #ffde8a,
+            0 0 0.833vw #3b4998,
+            0 0 1.667vw #3b4998,
+            0 0 2.083vw #3b4998,
+            0 0 2.604vw #3b4998,
+            0 0 4.167vw #3b4998;
+    color: #ffde8a
+    }
+
+    .not{
+        text-shadow:
+            0 0 0.104vw white,
+            0 0 0.208vw white,
+            0 0 0.417vw white,
+            0 0 0.833vw #3b4998,
+            0 0 1.667vw #3b4998,
+            0 0 2.083vw #3b4998,
+            0 0 2.604vw #3b4998,
+            0 0 4.167vw #3b4998;
+    color: white;
+}
+}
+
+.c{
+    display: flex; justify-content: space-between;
+    font-weight: bold;
+    
+    a:hover{
+        text-shadow:
+            0 0 2px #b7cdff,
+            0 0 4px #fff,
+            0 0 8px #fff,
+            0 0 16px #fff,
+            0 0 32px #fff,
+            0 0 40px #e17fb7,
+            0 0 50px #e17fb7;
+        color: #b7cdff;
+    }
+ 
+    .current{
+        text-shadow:
+            0 0 2px #81a0e9,
+            0 0 4px #fff,
+            0 0 8px #fff,
+            0 0 16px #fff,
+            0 0 32px #fff,
+            0 0 40px #e17fb7,
+            0 0 50px #e17fb7;
+    color: #7ea5ff;
+    }
+
+    .not{
+        text-shadow:
+            0 0 2px white,
+            0 0 4px white,
+            0 0 8px #e17fb7,
+            0 0 16px #ec2194,
+            0 0 32px #e17fb7,
+            0 0 40px #e17fb7;
+    color: white;
+}
+}
+
+.m{ /*meaty boi*/
+    display: flex; justify-content: space-between;
+    font-weight: bold;
+    
+    a:hover{
+        text-shadow:
+            0 0 2px #fff,
+            0 0 4px #8ac1ff,
+            0 0 8px #8ac1ff,
+            0 0 16px #3b4998,
+            0 0 32px #3b4998,
+            0 0 40px #3b4998,
+            0 0 50px #3b4998,
+            0 0 80px #3b4998;
+        color: #d0e6ff;
+    }
+ 
+    .current{
+        text-shadow:
+            0 0 2px #8ac1ff,
+            0 0 4px #8ac1ff,
+            0 0 8px #8ac1ff,
+            0 0 16px #3b4998,
+            0 0 32px #3b4998,
+            0 0 40px #3b4998,
+            0 0 50px #3b4998,
+            0 0 80px #3b4998;
+    color: #8ac1ff
+    }
+
+    .not{
+        text-shadow:
+            0 0 2px white,
+            0 0 4px white,
+            0 0 8px white,
+            0 0 16px #3b4998,
+            0 0 32px #3b4998,
+            0 0 40px #3b4998,
+            0 0 50px #3b4998,
+            0 0 80px #3b4998;
+    color: white;
+}
+}
+
+
+/* fonts below, do not touch or edit */
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+  }
+
+.Dosis {
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+}
+
+ .Tinos {  
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+/* padding */
+body{
+    padding-top: 1.042vw;
+    padding-right: 2.083vw;
+    padding-bottom: 1.042vw;
+    padding-left: 2.083vw;
+}
+
+/* H5 used for blocking and spacing */
+H5{
+    color: rgba(255,255,255,0.0);
+    font-size: 0.42vw;
+}
+
+/* heading texts */
+h1{
+    text-align: center;
+    font-size: 6.7vw;
+    color: #ebeff6;   
+    transform: translateY(-5.208vw);
+}
+
+h2{
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    padding-top: 11.198vw;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.8vw;
+    color: white;
+    padding-bottom: 13.021vw;
+    transform: translateY(-8.854vw);
+}
+
+/* text heading and body */
+h4{
+    font-size: 1.5vw;
+    color: white;
+}
+
+h6{
+    font-size: 1.27vw;
+    color: white;
+}
+
+p{
+    font-size: 1vw;
+    color: #ebeff6;
+    padding-bottom: 1.042vw;
+}
+
+.meth{
+    line-height: 0.3px;
+}
+
+.in{
+    text-indent: 2.604vw;
+}
+
+/* top image backgrounds */
+.first{ /* index */
+    background-image: url('mediacontent/INDEX_background_holder_edit.png'); /*https://stockcake.com/i/surreal-sky-whales_1171591_592172?signup=true*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.second{ /* contact */
+    background-image: url('mediacontent/CONTACT_background_holder.png'); /*https://stockcake.com/i/manta-ray-migration_535804_939078*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.third{ /* terms */
+}
+
+.fourth{ /* meat */
+    background-image: url('mediacontent/MEAT_background_holder.png'); /*https://commons.wikimedia.org/wiki/File:Stol_-_ocean_of_clouds_2017.jpg*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+/* footer background trial */
+body{
+    background-image: url('mediacontent/INDEX_footer_holder.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.shadow{
+ text-shadow:
+  0 0 2px #fff,        
+  0 0 4px #fff,
+  0 0 16px #e17fb7,
+  0 0 32px #e17fb7,
+  0 0 40px #e17fb7,
+  0 0 50px #e17fb7;
+  color: white;
+}
+
+.b{
+    display: flex; justify-content: space-between;
+    font-weight: bold;
+    
+    a:hover{
+        text-shadow:
+            0 0 0.104vw #ffb700,
+            0 0 0.208vw #ffb700,
+            0 0 0.833vw #e17fb7,
+            0 0 1.667vw #e17fb7,
+            0 0 2.083vw #e17fb7,
+            0 0 2.604vw #e17fb7,
+            0 0 4.167vw #e17fb7;
+        color: #eedcb0;
+    }
+
+    .off{
+        text-shadow:
+            0 0 0.104vw white,
+            0 0 0.208vw white,
+            0 0 0.833vw #e17fb7,
+            0 0 1.667vw #e17fb7,
+            0 0 2.083vw #e17fb7,
+            0 0 2.604vw #e17fb7,
+            0 0 4.167vw #e17fb7;
+    color: white;
+}
+}
+
+.logo{
+    transform: translateY(-54.688vw);
+}
+
+/* social links **/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-self: center;
+  }
+  
+  td, th {
+    border: 0.052vw solid #dddddd00;
+    text-align: left;
+    padding: 0.417vw;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd00;
+  }
+
+.social{
+    height: 12.708vw;
+    width: 10.625vw;
+    border-radius: 15%;
+    box-shadow:
+        0 0 0.833vw #6a49a3,
+        0 0 1.667vw #6a49a3;
+}
+
+.box {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .box:hover .image {
+    opacity: 0.3;
+  }
+  
+  .box:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #9b68f4;
+    color: white;
+    font-size: 0.833vw;
+    padding: 0.833vw 1.667vw;
+    border-radius: 15%;
+    box-shadow:
+    0 0 0.833vw #9b68f4,
+    0 0 1.667vw #9b68f4;
+  }
+
+  .uni{
+    text-align: center;
+  }
+
+/*No touchy, below is links for Terms & Privacy*/
+  .t{
+    a:hover{
+    color: #ffb700;
+    }
+    .e{
+    color: #e17fb7;
+}
+}
+
+/*BIG BOI MEATY*/
+/*Pork slide show data*/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: fit-content;
+  margin: auto;
+}
+
+/* Caption text */
+.tixt {
+  color: #f2f2f2;
+  font-size: 0.781vw;
+  bottom: 0.417vw;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 0.781vw;
+  width: 0.781vw;
+  margin: 0 0.104vw;
+  background-color: #424a9794;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #9fa5db;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+ @media only screen and (max-width: 15.625vw) {
+  .text {font-size: 0.573vw}
+}

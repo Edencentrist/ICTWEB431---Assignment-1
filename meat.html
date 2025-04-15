@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="fourth">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <title> Meat - The Inside </title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+            
+        <div class="bg">
+            <div class="m">
+                <h5 id="home"> </h5>
+                <h5> </h5>
+                <p class="Dosis"><a href="index.html" class="not">HOME</a></p>
+                <p class="Dosis"><a href="meat.html" class="current">WORKING TITLE</a></p>
+                <p class="Dosis"><a href="contact.html" class="not">CONTACT US</a></p>
+                <h5> </h5>
+                <h5> </h5>
+            </div>
+            <h2 class="oswald shadow"> OUR PROJECTS AND GAMES </h2>
+            <h1 class="oswald shadow"> [WORKING TITLE] </h1>
+            <h3 class="oswald shadow"> EXPLORE AND ADVENTURE </h3>
+            <img src="mediacontent/logo.png" class="logo" alt="whale" width="173.5vw" height="97.25vw"> 
+        </div>
+        </header>
+
+
+        <!--add meat below, pork-->
+        <main>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+        <img src="games/Abyssal_Veil.png" alt="Abyss" style="width:100%">"
+        <div class="tixt">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+        <img src="games/Arid.png" alt="Arid" style="width:100%">
+        <div class="tixt">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+        <img src="games/Beyond.png" alt="Beyond" style="width:100%">
+        <div class="tixt">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="games/Inlet.png" alt="Inlet" style="width:100%">
+            <div class="tixt">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="games/Lettuce.png" alt="Lettuce" style="width:100%">
+            <div class="tixt">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="games/Lumina.png" alt="Jelly" style="width:100%">
+            <div class="tixt">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="games/Meat.png" alt="Meat" style="width:100%">
+            <div class="tixt">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="games/Skyborne.png" alt="Sky" style="width:100%">
+            <div class="tixt">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="games/Skylark.png" alt="Bird" style="width:100%">
+            <div class="tixt">Caption Three</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    </div>
+
+    <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+    </script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+</main>
+
+        <footer> <!-- no touchy, footer is complete-->
+            <div class="footer">
+                <H5>THIS WILL BE MY THIRTEENTH REASON WHY ON MY NOTE TO THE WORLD --- ALL ABOARD THE FUNERAL TRAIN, AND YOU BETTER CONGA OR YOUR NEXT --- TAKE THE FLOWERS OF MY CASKET AND THROW IT INTO THE CROWD</H5>
+                <p class="Dosis shadow">&copy;2025 CRSandler</p>
+                <div> <p class="Dosis b"><a href="terms.html" class="off">terms and privacy</a></p></div>
+                <div> <p class="Dosis b"><a href="#home" class="off">return to top of page</a></p></div>
+            </div>
+        </footer>
+    </body>
